@@ -7,7 +7,7 @@ body {
 .background-image-container {
   position: relative;
   width: 80%; /* Ajusta el ancho máximo según tus preferencias */
-  max-width: 2000px; /* Establece un ancho máximo absoluto */
+  max-width: 1800px; /* Establece un ancho máximo absoluto */
   height: 250px;
   overflow: hidden;
   border-radius: 20px;
@@ -20,8 +20,7 @@ body {
 .welcome-header {
   position: relative;
   z-index: 1;
-  background: linear-gradient(to bottom, rgba(25, 26, 26, 0.75) 22.5%, rgba(30, 31, 33, 0.8) 22.5%); /* Cambia el porcentaje del degradado */
-  border-radius: 20px;
+  background: linear-gradient(to bottom, rgba(25, 26, 26, 0.75) 7.42%, rgba(30, 31, 33, 0.8) 7.42%); /* Cambia el porcentaje del degradado */
   padding: 30px;
   margin-top: -280px; /* Ajusta esto para mover el encabezado hacia abajo */
 }
@@ -31,6 +30,8 @@ body {
   max-height: 100%;
   object-fit: cover;
 }
+
+
 
 
 .profile {
@@ -74,17 +75,17 @@ body {
 /* Agrega el estilo para el divisor */
 .divider {
   border: none;
-  border-top: 2px solid rgb(85, 85, 85, 1);
+  border-top: 2px solid #555555;
   margin: 3rem 0;
 }
 .divider2 {
   border: none;
-  border-top: 0px solid rgb(85, 85, 85, 1);
+  border-top: 0px solid #555555;
   margin: 2rem 0;
 }
 .divider_p {
   border: none;
-  border-top: 1px solid rgb(85, 85, 85, 1);
+  border-top: 1px solid #555555;
   margin: 3rem 0;
 }
 
@@ -105,7 +106,7 @@ body {
 }
 
 .navbar {
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 5px 10px #0000001a;
 }
 
 /* Agrega aquí tus estilos existentes */
@@ -148,7 +149,6 @@ body {
 .footer-center {
   flex: 1.5;
   text-align: center;
-  color: #ffffff;
 }
 
 .footer-right {
@@ -171,7 +171,7 @@ body {
 
 .topic-box {
   display: inline-block;
-  border: 1px solid #8F897F; /* Color del borde */
+  border: 1px solid #8f897f; /* Color del borde */
   padding: 5px 13px;
   margin-top: 10px;
   border-radius: 10px;
@@ -215,10 +215,10 @@ body {
 
 .message {
   position: absolute;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #000000cc;
   color: white;
   border-radius: 5px;
-  padding: 5px 10px;
+  padding: 10px 10px;
   opacity: 0;
   transition: opacity 0.5s;
   pointer-events: none; /* Evita que el mensaje interfiera con el clic en los íconos */
@@ -232,4 +232,519 @@ body {
   opacity: 1;
 }
 
-font-family: 'futura-bold', sans-serif;
+
+
+/*Portafolio*/
+.portfolio-title-container {
+  text-align: left; /* Alineación a la izquierda */
+  margin-top: 1rem; /* Espacio entre el título y las estadísticas */
+}
+
+.portfolio-title {
+  margin: 0; /* Ajusta el margen del título */
+}
+
+.portfolio-stats {
+  font-size: 0.9rem;
+  opacity: 0.7;
+  margin-top: 0.2rem; /* Ajusta el espacio entre el título y las estadísticas */
+}
+.opacity-095 {
+  opacity: 1;
+}
+
+.section-title {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  opacity: 0.75;
+}
+
+
+
+
+/* Estilos para la miniatura del video pequeña */
+.video-thumbnail-small {
+  width: 230px; /* Ajusta el tamaño según sea necesario */
+  height: auto;
+  border-radius: 5px;
+  margin-left: -140px;
+}
+
+/* Estilos para la foto del creador pequeña */
+.creator-photo-small {
+  width: 30px; /* Ajusta el tamaño según sea necesario */
+  height: 30px; /* Ajusta el tamaño según sea necesario */
+  border-radius: 50%;
+  margin-left: -55px;
+}
+
+/* Estilos para la sección de video y sus elementos */
+.video-section {
+  display: flex;
+  flex-direction: column;
+}
+.video-info {
+  display: flex;
+  align-items: auto; /* Alinea los elementos a la izquierda */
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.creator-views-likes {
+  margin: 0;
+  opacity: 1;
+  font-size: 0.92rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  margin-left: -48px;
+}
+.video-stats {
+  width: 150px;
+  position: relative;
+}
+
+
+.video-description-opacity {
+  margin: 0;
+  opacity: 0.75;
+  font-size: 0.89rem;
+  font-weight: 350;
+  text-align: left;
+  margin-left: -28px;
+}
+
+.my-description {
+  margin: 0;
+  opacity: 1;
+  font-size: 0.89rem;
+  font-weight: 350;
+  text-align: left;
+  margin-left: -8px;
+}
+
+/* Estilos para la miniatura del video pequeña */
+.video-thumbnail-small {
+  width: 230px; /* Ajusta el tamaño según sea necesario */
+  height: auto;
+  border-radius: 5px;
+  margin-left: -50px;
+}
+
+/* Estilos para la foto del creador pequeña */
+.creator-photo-small {
+  width: 30px; /* Ajusta el tamaño según sea necesario */
+  height: 30px; /* Ajusta el tamaño según sea necesario */
+  border-radius: 50%;
+  margin-left: -65px;
+}
+
+/* Estilos para la sección de video y sus elementos */
+.video-section {
+  display: flex;
+  flex-direction: column;
+}
+.video-info {
+  display: flex;
+  align-items: auto; /* Alinea los elementos a la izquierda */
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.creator-views-likes {
+  margin: 0;
+  opacity: 1;
+  font-size: 0.92rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  margin-left: -48px;
+}
+
+.video-description-opacity {
+  margin: 0;
+  opacity: 0.75;
+  font-size: 0.89rem;
+  font-weight: 350;
+  text-align: left;
+  margin-left: -28px;
+}
+
+.my-description {
+  margin: 0;
+  opacity: 1;
+  font-size: 0.89rem;
+  font-weight: 350;
+  text-align: left;
+  margin-left: -48px;
+}
+.video-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 10px; /* Añade un margen inferior para separar los videos */
+}
+
+
+/*Video 2*/
+/* Estilos para la miniatura del video pequeña */
+.video-thumbnail-small2 {
+  width: 230px; /* Ajusta el tamaño según sea necesario */
+  height: auto;
+  border-radius: 5px;
+  margin-left: 240px;
+  margin-top: -220px;
+}
+.video-item2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Estilos para la foto del creador pequeña */
+.creator-photo-small2 {
+  width: 30px; /* Ajusta el tamaño según sea necesario */
+  height: 30px; /* Ajusta el tamaño según sea necesario */
+  border-radius: 50%;
+  margin-left: 225px;
+}
+
+.video-stats2 {
+  width: 150px;
+  position: relative;
+}
+
+
+/* Estilos para la sección de video y sus elementos */
+.video-section2 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.video-info2 {
+  display: flex;
+  align-items: auto; /* Alinea los elementos a la izquierda */
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.creator-views-likes2 {
+  margin: 0;
+  opacity: 1;
+  font-size: 0.92rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  margin-left: -42px;
+}
+
+.video-description-opacity2 {
+  margin: 0;
+  opacity: 0.75;
+  font-size: 0.89rem;
+  font-weight: 350;
+  text-align: left;
+  margin-left: -28px;
+}
+
+.my-description2 {
+  margin: 0;
+  opacity: 1;
+  font-size: 0.89rem;
+  font-weight: 350;
+  text-align: left;
+  margin-left: 240px;
+}
+
+
+
+
+
+/*Video 3*/
+/* Estilos para la miniatura del video pequeña */
+.video-thumbnail-small3 {
+  width: 230px; /* Ajusta el tamaño según sea necesario */
+  height: auto;
+  border-radius: 5px;
+  margin-left: 540px;
+  margin-top: -262px;
+}
+.video-item3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Estilos para la foto del creador pequeña */
+.creator-photo-small3 {
+  width: 30px; /* Ajusta el tamaño según sea necesario */
+  height: 30px; /* Ajusta el tamaño según sea necesario */
+  border-radius: 50%;
+  margin-left: 525px;
+}
+
+.video-stats3 {
+  width: 150px;
+  position: relative;
+}
+
+/* Estilos para la sección de video y sus elementos */
+.video-section3 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.video-info3 {
+  display: flex;
+  align-items: auto; /* Alinea los elementos a la izquierda */
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.creator-views-likes3 {
+  margin: 0;
+  opacity: 1;
+  font-size: 0.92rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  margin-left: -42px;
+}
+
+.video-description-opacity3 {
+  margin: 0;
+  opacity: 0.75;
+  font-size: 0.89rem;
+  font-weight: 350;
+  text-align: left;
+  margin-left: -28px;
+}
+
+.my-description3 {
+  margin: 0;
+  opacity: 1;
+  font-size: 0.89rem;
+  font-weight: 350;
+  text-align: left;
+  margin-left: 540px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*VIDEO4*/
+/* Estilos para la miniatura del video pequeña */
+.video-thumbnail-small4 {
+  width: 230px; /* Ajusta el tamaño según sea necesario */
+  height: auto;
+  border-radius: 5px;
+  margin-left: -50px;
+  margin-top: 45px;
+}
+
+/* Estilos para la foto del creador pequeña */
+.creator-photo-small4 {
+  width: 30px; /* Ajusta el tamaño según sea necesario */
+  height: 30px; /* Ajusta el tamaño según sea necesario */
+  border-radius: 50%;
+  margin-left: -65px;
+}
+
+/* Estilos para la sección de video y sus elementos */
+.video-section4 {
+  display: flex;
+  flex-direction: column;
+}
+.video-info4 {
+  display: flex;
+  align-items: auto; /* Alinea los elementos a la izquierda */
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.creator-views-likes4 {
+  margin: 0;
+  opacity: 1;
+  font-size: 0.92rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  margin-left: -48px;
+}
+
+.video-description-opacity4 {
+  margin: 0;
+  opacity: 0.75;
+  font-size: 0.89rem;
+  font-weight: 350;
+  text-align: left;
+  margin-left: -28px;
+}
+
+.my-description4 {
+  margin: 0;
+  opacity: 1;
+  font-size: 0.89rem;
+  font-weight: 350;
+  text-align: left;
+  margin-left: -48px;
+}
+.video-item4 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 10px; /* Añade un margen inferior para separar los videos */
+}
+
+
+/*Video 2*/
+/* Estilos para la miniatura del video pequeña */
+.video-thumbnail-small5 {
+  width: 230px; /* Ajusta el tamaño según sea necesario */
+  height: auto;
+  border-radius: 5px;
+  margin-left: 240px;
+  margin-top: -220px;
+}
+.video-item5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Estilos para la foto del creador pequeña */
+.creator-photo-small5 {
+  width: 30px; /* Ajusta el tamaño según sea necesario */
+  height: 30px; /* Ajusta el tamaño según sea necesario */
+  border-radius: 50%;
+  margin-left: 225px;
+}
+
+.video-stats5 {
+  width: 150px;
+  position: relative;
+}
+
+
+/* Estilos para la sección de video y sus elementos */
+.video-section5 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.video-info5 {
+  display: flex;
+  align-items: auto; /* Alinea los elementos a la izquierda */
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.creator-views-likes5 {
+  margin: 0;
+  opacity: 1;
+  font-size: 0.92rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  margin-left: -42px;
+}
+
+.video-description-opacity5 {
+  margin: 0;
+  opacity: 0.75;
+  font-size: 0.89rem;
+  font-weight: 350;
+  text-align: left;
+  margin-left: -28px;
+}
+
+.my-description5 {
+  margin: 0;
+  opacity: 1;
+  font-size: 0.89rem;
+  font-weight: 350;
+  text-align: left;
+  margin-left: 240px;
+}
+
+
+
+
+
+/*Video 6*/
+/* Estilos para la miniatura del video pequeña */
+.video-thumbnail-small6 {
+  width: 230px; /* Ajusta el tamaño según sea necesario */
+  height: auto;
+  border-radius: 5px;
+  margin-left: 540px;
+  margin-top: -220px;
+}
+.video-item6 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Estilos para la foto del creador pequeña */
+.creator-photo-small6 {
+  width: 30px; /* Ajusta el tamaño según sea necesario */
+  height: 30px; /* Ajusta el tamaño según sea necesario */
+  border-radius: 50%;
+  margin-left: 525px;
+}
+
+.video-stats6 {
+  width: 150px;
+  position: relative;
+}
+
+/* Estilos para la sección de video y sus elementos */
+.video-section6 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+.video-info6 {
+  display: flex;
+  align-items: auto; /* Alinea los elementos a la izquierda */
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.creator-views-likes6 {
+  margin: 0;
+  opacity: 1;
+  font-size: 0.92rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  margin-left: -42px;
+}
+
+.video-description-opacity6 {
+  margin: 0;
+  opacity: 0.75;
+  font-size: 0.89rem;
+  font-weight: 350;
+  text-align: left;
+  margin-left: -28px;
+}
+
+.my-description6 {
+  margin: 0;
+  opacity: 1;
+  font-size: 0.89rem;
+  font-weight: 350;
+  text-align: left;
+  margin-left: 540px;
+}
