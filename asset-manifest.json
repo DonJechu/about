@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a775cd18.css",
+    "main.js": "/static/js/main.145c8643.js",
+    "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/leaf.png": "/static/media/leaf.ff2616f664c8c0ceab91.png",
+    "static/media/emotion.png": "/static/media/emotion.eabfc16e7a146ab15778.png",
+    "static/media/suicide.png": "/static/media/suicide.9c86cd7138a398c45fa5.png",
+    "static/media/codeEditor.png": "/static/media/codeEditor.1b585492490c8c1cace9.png",
+    "static/media/blog.png": "/static/media/blog.fb8ab7f271a937d5fc01.png",
+    "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/chatify.png": "/static/media/chatify.7206044e0b5cdad44726.png",
+    "static/media/logo.png": "/static/media/logo.317d9b4226539e37b65f.png",
+    "static/media/background.png": "/static/media/background.bf14babc488920a8b342.png",
+    "static/media/nacho.jpg": "/static/media/nacho.ca61940519162ae09708.jpg",
+    "static/media/xnestorio.jpg": "/static/media/xnestorio.1eb5c6a8558eabd8ba3d.jpg",
+    "static/media/ansichan.jpg": "/static/media/ansichan.dd461db679b8d661e5f6.jpg",
+    "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
+    "index.html": "/index.html",
+    "main.a775cd18.css.map": "/static/css/main.a775cd18.css.map",
+    "main.145c8643.js.map": "/static/js/main.145c8643.js.map",
+    "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a775cd18.css",
+    "static/js/main.145c8643.js"
+  ]
+}
